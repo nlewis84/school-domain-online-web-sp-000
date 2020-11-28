@@ -22,7 +22,8 @@ class School
     roster_keys = roster.keys
     roster_keys.each do [i]
       roster[i] = roster[i].sort
-    end
     binding.pry
+    end
+
   end
 end
