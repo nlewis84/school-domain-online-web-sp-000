@@ -19,8 +19,7 @@ class School
   end
 
   def sort ## I am only sorting grades...i need to sort names
-    roster_keys = roster.keys
-    roster_keys.each do [i]
+    roster.keys.each do [i]
       roster[i] = roster[i].sort
     binding.pry
     end
