@@ -21,6 +21,5 @@ class School
   def sort ## I am only sorting grades...i need to sort names
     sorted = roster.sort
     roster = Hash[sorted.map {|key, value| [key, value]}]
-    binding.pry
   end
 end
