@@ -23,6 +23,6 @@ class School
     roster.keys.each do |i|
       roster[i] = roster[i].sort
     end
-
+roster
   end
 end
