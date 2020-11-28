@@ -17,10 +17,10 @@ class School
     roster[grade]
   end
 
-  def sort ## I am only sorting grades...i need to sort names
+  def sort
     roster.keys.each do |i|
       roster[i] = roster[i].sort
     end
-  roster
+   roster
   end
 end
